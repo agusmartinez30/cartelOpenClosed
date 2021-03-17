@@ -1,2 +1,2 @@
-# Cartel Neon
+# Cartel Neon interactivo
 https://openclosed.netlify.app
