@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+        <div class="div">
+            <h1 id="btn">Closed</h1>
+        </div>
+
+    <footer class="pie">
+        <!-- <p>Desarrollado por <span> @agustinmartinezy</span> &copy 2021</p> -->
+        <p>&copy 2021  <a href="https://github.com/agusmartinez30" target="_blank">Agustin Martinez</a> </p>
+    </footer>
+
+    <script>
+        const btn = document.getElementById('btn');
+
+        btn.onclick = function(){
+            if( btn.classList.contains('neon')){
+                btn.classList.remove('neon');
+                btn.innerHTML = 'CLOSED';
+            }
+            else{
+                btn.classList.add('neon');
+                btn.innerHTML = 'OPEN';
+            }
+        }
+
+    </script>
+</body>
+</html>
